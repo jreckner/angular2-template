@@ -7,9 +7,14 @@
     "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true,
     "sourceMap": true,
+    "declaration": false,
     "noEmitHelpers": true,
     "strictNullChecks": false,
     "baseUrl": "./src",
+    "typeRoots": [
+      "./node_modules/@types",
+      "./node_modules"
+    ],
     "paths": {
     },
     "lib": [

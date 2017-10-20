@@ -4,9 +4,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
-// libraries
-import { Ng2BootstrapModule } from 'ng2-bootstrap';
-
 // root component
 import { AppComponent } from './app.component';
 import { ENV_PROVIDERS } from './environment';
@@ -29,7 +26,6 @@ import { HeaderComponent } from './components/header.component';
     BrowserModule,
     ReactiveFormsModule,
     HttpModule,
-    Ng2BootstrapModule,
     APP_ROUTER
   ],
   providers: [
